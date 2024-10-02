@@ -28,7 +28,7 @@
 
       <div v-if="encryptedDataAsym">
         <h3>Datos Cifrados Asimétricos:</h3>
-        <Textarea v-model="encryptedDataAsym" class="data-display" rows="5" autoResize></Textarea>
+        <Textarea auto v-model="encryptedDataAsym" class="data-display" rows="5" autoResize></Textarea>
       </div>
 
       <div v-if="decryptedDataAsym">
@@ -202,8 +202,9 @@ h2 {
   .all {
     display: flex;
     flex-direction: column;
+    
     height: 100vh;
-    padding: 10px; /* Añade espacio para evitar que el contenido se pegue a los bordes */
+    padding: 40px; /* Añade espacio para evitar que el contenido se pegue a los bordes */
     box-sizing: border-box;
   }
 
@@ -245,7 +246,7 @@ label {
   background-color: #ffffff;
   padding: 10px;
   border-radius: 5px;
-  max-width: 100%;
+  width: 100%;
   /* Limita el ancho al 100% del contenedor */
   overflow-x: auto;
   /* Permite el desplazamiento horizontal si es necesario */
