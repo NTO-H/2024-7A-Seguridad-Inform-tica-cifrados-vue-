@@ -3,9 +3,9 @@ import App from './App.vue';
 import './registerServiceWorker';
 import router from './router';
 import PrimeVue from 'primevue/config';
-// import 'primevue/resources/themes/saga-blue/theme.css'; // Tema
-// import 'primevue/resources/primevue.min.css'; // Estilos base de PrimeVue
-// import 'primeicons/primeicons.css'; // Iconos de PrimeIcons
+import 'primevue/resources/themes/saga-blue/theme.css'; // Tema (descomentado)
+import 'primevue/resources/primevue.min.css'; // Estilos base de PrimeVue (descomentado)
+import 'primeicons/primeicons.css'; // Iconos de PrimeIcons (descomentado)
 
 // Crear la aplicación una sola vez
 const app = createApp(App);
