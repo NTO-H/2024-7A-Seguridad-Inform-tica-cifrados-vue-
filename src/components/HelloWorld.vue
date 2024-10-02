@@ -1,6 +1,5 @@
 <template>
   <div class="all">
-    <h2>Cifrado de César con Vue</h2>
     <div class="container">
       <div class="input-container">
         <label for="amount" class="font-bold block mb-2">número de desplazamiento</label>
@@ -214,10 +213,9 @@ export default defineComponent({
 }
 
 .container {
+  padding: 20px;
+  width: 100%;
 
-  box-shadow: 0px 0px 5px 5px #d6d6d64b;
-
-  background-color: #eeeeee;
 }
 
 .clearAll {
@@ -297,11 +295,11 @@ flex-wrap: wrap;
   form {
     width: 80%;
     
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: #ffffff;
-    border: 1px solid #B1FFB0FF;
+    border: 1px solid rgb(255, 254, 240);
     /* border-radius: 10px; */
-    box-shadow: 0px 5px 16px 5px #1010104B;
+    box-shadow: 0px 5px 16px 5px #cacaca4b;
   }
   }
 }
